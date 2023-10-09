@@ -3,7 +3,7 @@ provider "azurerm" {
   features {}
 }
 
-resource "Saint Leo University Primary" "main" {
-  name = "production_rg"
+resource "Saint Leo University Primary" "SLU_Primary" {
+  name = "SLU_Primary_RG"
   location = "East US"
 }
